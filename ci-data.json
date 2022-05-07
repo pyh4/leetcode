@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "trace_id": 2708735894076845731,
+      "span_id": 5825882463414551647,
+      "parent_id": 4126032767643946092,
+      "name": "jenkins.step",
+      "resource": "Print Message",
+      "service": "jenkins",
+      "type": "ci",
+      "meta": {
+        "ci.job.number": "3",
+        "ci.job.result": "success",
+        "ci.status": "success",
+        "_dd.origin": "ciapp-pipeline",
+        "ci.job.name": "Print Message",
+        "ci.workspace_path": "",
+        "user.name": "root",
+        "language": "",
+        "_dd.ci.level": "job",
+        "error": "false",
+        "ci.node.name": "built-in",
+        "ci.node.labels": "[\"built-in\"]",
+        "ci.pipeline.id": "jenkins-ci-4",
+        "_dd.ci.internal": "false",
+        "ci.provider.name": "jenkins",
+        "_dd.ci.build_level": "job",
+        "jenkins.step.args.message": "hello world",
+        "jenkins.result": "success",
+        "ci.pipeline.name": "ci",
+        "_dd.hostname": "none",
+        "ci.job.url": "http://192.168.47.4:8080/job/ci/4/execution/node/3/"
+      },
+      "metrics": {
+        "_sampling_priority_v1": 1,
+        "ci.queue_time": 0
+      },
+      "start": 1651803866047000000,
+      "duration": 9000000
+    }
+  ]
+]
