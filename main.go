@@ -7,13 +7,13 @@ import (
 )
 
 func main() {
-	h := handler{}
-	http.Handle("/", &h)
-	http.ListenAndServe(":9539", nil)
+	//h := handler{}
+	//http.Handle("/", &h)
+	//http.ListenAndServe(":9539", nil)
+	fmt.Println("hello, world")
 }
 
 type handler struct {
-
 }
 
 func (h *handler) ServeHTTP(writer http.ResponseWriter, request *http.Request) {
